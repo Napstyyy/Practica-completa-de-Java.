@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Ejercicios</title>
+</head>
+<body>
+<!--  Celsius a Fahrenheit:
+    <script>
+        var C = prompt("Por favor digite los centigrados a convertir a Fahrenheit: ");
+        console.log(C + "°C son " + (((9/5) * C) + 32) + " grados Fahrenheit");
+    </script>
+-->
+<!-- Volumen de una esfera:
+    <script>
+        var radio = prompt("Por favor digite el radio de la esfera: ");
+        const pi = 3.1415926;
+        console.log("El volumen de una esfera de radio " + radio + " es de " + ((4/3) * pi) * radio ** 3);
+    </script>
+-->
+<!-- Perimetro de una esfera:
+    <script>
+        var l = prompt("Por favor digite el largo del rectangulo: ");
+        var a = prompt("Por favor digite el ancho del rectangulo: ");
+        console.log("El perimetro del rectangulo con largo " + l + " y ancho " + a + " es de " + ((l * 2) + (a * 2)));
+    </script>
+-->
+<!-- Km/H a Millas:
+    <script>
+        var KmH = prompt("Por favor digite cuantos Km/h quiere convertir a mph: ");
+        console.log(KmH + " Km/h equivalen a " + (KmH * 0.621371) + " mph"); 
+    </script>
+-->
+<!-- Horas y Minutos a Minutos:
+    <script>
+        var h = prompt("Por favor digite la cantidad de horas: ");
+        h = parseInt(h);
+        var m = prompt("Por favor digite la cantidad de minutos: ");
+        m = parseInt(m);
+        console.log(h + " horas y " + m + " minutos equivalen a " + ((h * 60) + m) + " minutos");
+    </script>
+-->
+<!-- Minutos a Horas y Minutos
+    <script>
+        var m = prompt("Por favor digite la cantidad de minutos: ");
+        m = parseInt(m);
+        console.log(m + " minutos equivalen a " + (Math.floor(m / 60)) + " horas y " + (m % 60) + " minutos ");
+    </script>
+-->
+<!-- Nombre completo y año de nacimiento
+    <script>
+        var nombre = prompt("Por favor digite su nombre: ");
+        var apellido = prompt("Por favor digite su apellido: ");
+        var year = prompt("Por favor digite su año de nacimiento: ");
+        console.log(nombre + " " + apellido + " " + year);
+    </script>
+-->
+<!-- Operaciones
+    <script>
+        var num1 = prompt("Por favor digite el primer numero: ");
+        num1 = parseInt(num1);
+        var num2 = prompt("Por favor digite el segundo numero: ");
+        num2 = parseInt(num2);
+        console.log("Suma: " + (num1 + num2) + "\n" + "Resta: " + (num1 - num2) + "\n" + " Multiplicacion: " + (num1 * num2) + "\n" + "Division: " + (num1 / num2));
+    </script>
+-->
+<!-- Tercer angulo de un triangulo
+    <script>
+        var a1 = prompt("Por favor digite el valor del primer angulo: ");
+        a1 = parseInt(a1);
+        var a2 = prompt("Por favor digite el valor del segundo angulo: ");
+        a2 = parseInt(a2);
+        console.log("El valor del tercer angulo de un triangulo con angulos de " + a1 + " y " + a2 + " es de " + ((180 - a1 - a2)));
+    </script>
+-->
+<!-- mph a m/s 
+    <script>
+        var mph = prompt("Por favor digite la cantidad de mph que desea convertir a m/s: ");
+        console.log(mph + " mph " + "equivalen a " + (mph * 0.44704) + " m/s");
+    </script>
+--> 
+<!-- Horas, Minutos y segundos a milisegundos
+    <script>
+        var horas = prompt("Digite horas: ");
+        var minutos = prompt("Digite minutos: ");
+        var segundos = prompt("Digite segundos: ");
+        var milisegundos = horas * 3600000 + minutos * 60000 + segundos * 1000;
+        console.log("La cantidad de milisegundos para " + horas + " hora, " + minutos + " minutos y " + segundos + " segundos es de " + milisegundos + " milisegundos" );
+    </script>
+-->
+<!-- Operacion sin variables
+    <script>
+        const operacion = ((17 / 11) + (23 / 2)) / ((943 / 120) + Math.sqrt(144));
+        console.log (operacion);
+    </script>
+-->
+<!-- Operacion 1 con variable
+    <script>
+        var x = prompt("Por favor digite el valor que le quiere asignar a x: ");
+        var operacion = (x * (1/2) + 25) / ((Math.sqrt(169) / Math.sqrt(144)) + Math.sqrt(x) / x);
+        console.log("El resultado de la ecuacion para un valor de " + x + " es de " + operacion);
+    </script>
+-->
+<!--Operacion 2 con variable
+    <script>
+        var x = prompt("Por favor digite el valor que le quiere asignar a x: ");
+        x = parseInt(x);
+        var operacion = ((((x / 2) + ((Math.sqrt(x) / x) + 20)) * 16 / x ) / ((((1 / 2) - (3 / 4) + x) / (2 / 17)) + x)) + Math.pow(x,2);
+        console.log("El resultado de la ecuacion para un valor de " + x + " es de " + operacion);
+    </script>
+-->
+<!-- 
+    <script>
+        var x = prompt("Por favor digite el valor que le quiere asignar a x: ");
+        x = parseInt(x);
+        var operacion = ((((x / 6) + (45 / x)) / (x - (-8 / 2))) / ((12 / ((Math.sqrt(x) / 5) + Math.pow(x,4))) / Math.sqrt(x)));
+        console.log("El resultado de la ecuacion para un valor de " + x + " es de " + operacion);
+    </script>
+-->
+<!-- Primo o no
+        <script>
+            var num = prompt("Este programa, lee un número entre uno(1) y cinco(5), e imprime si es primo o no.\nEntre un numero: ");
+            if (num < 1)
+                console.log("El numero es menor que 1.");
+            else
+                if (num > 5)
+                 console.log("El numero es mayor que 5");
+                else
+                    if(num == 2 || num == 3 || num == 5)
+                        console.log("El numero es primo");
+                    else
+                        console.log("El numero no es primo");
+        </script>
+-->
+<!--  Par o impar
+        <script>
+            var num = prompt("Este programa, lee un numero e imprime si es par o impar\nEntre un numero: ");
+            if((num % 2) == 0)
+                console.log("El numero es par");
+            else
+                console.log("El numero es impar");
+        </script>
+-->
+<!--  Día de la semana
+        <script>
+            var num = prompt("Este programa, lee un número entre [1 y 7] e imprime el día que le corresponde en la semana. Referencia: 1=Lunes. 7=Domingo \nEntre un numero: ");
+            if (num == 1)
+                console.log("El dia es lunes");
+            else
+                if(num == 2)
+                    console.log("El dia es martes");
+                else
+                    if (num == 3)
+                        console.log("El dia es miercoles");
+                    else
+                        if (num == 4)
+                            console.log("El dia es jueves");
+                        else
+                            if (num == 5)
+                                console.log("El dia es viernes");
+                            else
+                                if (num == 6)
+                                    console.log("El dia es sabado");
+                                else
+                                    if (num == 7)
+                                        console.log("El dia es domingo");
+        </script>
+-->
+<!--   Mes del año
+        <script>
+            var num = prompt("Este programa, lee un número entre [1 y 12] e imprime el mes quele corresponde en el año. Referencia: 1=Enero. 12=Diciembre \nEntre un numero:");
+            if (num == 1)
+                console.log("El mes es enero");
+            else
+                if(num == 2)
+                    console.log("El mes es febrero");
+                else
+                    if (num == 3)
+                        console.log("El mes es marzo");
+                    else
+                        if (num == 4)
+                            console.log("El mes es abril");
+                        else
+                            if (num == 5)
+                                console.log("El mes es mayo");
+                            else
+                                if (num == 6)
+                                    console.log("El mes es junio");
+                                else
+                                    if (num == 7)
+                                        console.log("El mes es julio");
+                                    else
+                                        if(num == 8)
+                                            console.log("El mes es agosto");
+                                        else
+                                            if (num == 9)
+                                                console.log("El mes es septiembre");
+                                            else
+                                                if (num == 10)
+                                                    console.log("El mes es octubre");
+                                                else
+                                                    if (num == 11)
+                                                        console.log("El mes es noviembre");
+                                                    else
+                                                        if (num == 12)
+                                                            console.log("El mes es diciembre");       
+        </script>
+-->
+<!--    Sueldo mensual
+        <script>
+            var years = prompt("Entre el número de años de antigüedad del trabajador: ");
+            years = parseInt(years);
+            if (years > 10)
+              console.log("El sueldo mensual es de " + ((40000 + (40000 * 0.1)) / 12) + " euros");  
+            else 
+                if (years <= 10 && years > 5)
+                    console.log("El sueldo mensual es de " + ((40000 + (40000 * 0.07)) / 12) + " euros");  
+                else 
+                    if (years <= 5 && years > 3)
+                        console.log("El sueldo mensual es de " + ((40000 + (40000 * 0.05)) / 12) + " euros");  
+                    else 
+                        if (years <= 3)
+                            console.log("El sueldo mensual es de " + ((40000 + (40000 * 0.03)) / 12) + " euros");
+        </script>
+-->
+<!--    Mayor que 100
+        <script>
+            var num = prompt("Digite un numero: ");
+            if (num > 100)
+                console.log("Es mayor que 100");
+        </script>
+-->
+<!--  Ambos pares o ambos impares
+        <script>
+            var num = prompt("Digite un numero: ");
+            var num2 = prompt("Digite otro numero: ");
+            if((num % 2) == 0 && (num2 % 2) == 0)
+                console.log("Son pares");
+            else
+                if((num % 2) != 0 && (num2 % 2) != 0)
+                console.log("Son impares");
+        </script>
+-->
+<!--  Primer num * segundo num = tercer num
+        <script>
+            var num = prompt("Digite un numero: ");
+            var num2 = prompt("Digite otro numero: ");
+            var num3 = prompt("Digite otro numero: ");
+            if((num * num2) == num3)
+                console.log("Si es");
+        </script> 
+-->
+<!--    Invierta o no
+        <script>
+            var interes = prompt("Entre el interes en %: ");
+            interes = parseInt(interes);
+            var capital = prompt("Entre el capital a invertir en $: ");
+            capital = parseInt(capital);
+            var intereses = capital * (interes * 0.1);
+            var saldo = capital + (capital * 0.1);
+            if (intereses > 7000)
+                console.log("Invierta su saldo sera " + saldo);
+            else 
+                console.log("No invierta");
+        </script> 
+-->
+<!-- Promedio
+        <script>
+            var nota1 = prompt("Entre su primera nota");
+            nota1 = parseInt(nota1);
+            var nota2 = prompt("Entre su segunda nota");
+            nota2 = parseInt(nota2);
+            var nota3 = prompt("Entre su tercera nota");
+            nota3 = parseInt(nota3);
+            if (((nota1 + nota2 + nota3) / 3) >= 3.0)
+                console.log("Aprueba");
+            else
+                console.log("Reprueba");
+        </script>
+-->
+<!-- Descuento compra
+        <script>
+            var compra = prompt("Valor de compra: ");
+            if(compra > 100000)
+                console.log("Total a pagar: " + (compra - (compra * 0.2)));
+        </script>
+-->
+<!--    Obrero sueldo semanal
+        <script>
+            var ht = prompt("Ingrese horas trabajadas: ");
+            ht = parseInt(ht);
+            if(ht > 40)
+                console.log("Salario semanal: " + (((ht - 40) * 20) + 40 * 16));
+            else 
+                console.log("Salario semanal: " + (ht * 16));
+        </script>
+-->
+<!-- Calorias quemadas 
+        <script>
+            var actividad = prompt("Ingrese la actividad: ");
+            var tiempo = prompt("Ingrese en cuanto tiempo hizo la actividad: ");
+            if(actividad == "dormir")
+                console.log("calorias quemadas: " + (1.08 * tiempo));
+            else
+                console.log("calorias quemadas: " + (1.66 * tiempo));
+        </script>
+-->
+<!--    Precio con clave
+        <script>
+            var clave = prompt("Ingrese la clave");
+            clave = parseInt(clave);
+            var precio = prompt("Ingrese el precio");
+            precio = parseInt(precio);
+            if(clave == 1)
+                console.log("Total a pagar: " + (precio - (precio * 0.1)));
+            else
+                console.log("Total a pagar: " + (precio - (precio * 0.2)));
+        </script>
+-->
+<!-- precio camisas
+        <script>
+            var cantidad = prompt("digite el numero de camisas: ");
+            var precio = prompt("digite el precio ");
+            if (cantidad >= 3)
+                console.log("Total a pagar: " + (precio - (precio * 0.2)));
+            else
+                console.log("Total a pagar: " + (precio - (precio * 0.1)));
+        </script>
+-->
+<!-- Empresa
+    <script>
+        var CostoPieza = prompt("Ingrese el costo de la pieza");
+        var NumeroDePiezas = prompt("Ingrese el numero de piezas");
+        if(CostoPieza > 500000)
+            {
+                console.log("Cantidad invertida: " + (CostoPieza * 0.55));
+                console.log("Valor prestamo banco: "+ (CostoPieza * 0.3));
+                console.log("Valor credito fabricante: "+ (CostoPieza - (CostoPieza * 0.85)));
+                console.log("Intereses fabricante "+ ((CostoPieza - (CostoPieza * 0.85)) * 0.2));
+            }
+        else 
+            {
+                console.log("Cantidad invertida: " + (CostoPieza * 0.70));
+                console.log("Valor credito fabricante: "+ (CostoPieza * 0.3));
+                console.log("Intereses fabricante "+ ((CostoPieza - (CostoPieza * 0.70)) * 0.2));
+            }
+    </script>
+-->
+<!-- Indice Masa Corporal
+    <script>
+        var peso = prompt("Ingrese su peso: ");
+        var altura = prompt("Ingrese su altura: ");
+        var imc = peso / (Math.pow(altura, 2));
+        if(imc < 16)
+            console.log("Criterio de ingreso en hospital");
+        else
+            if(imc >= 16 && imc < 17)
+                console.log("Infrapeso");
+            else
+                if(imc >= 17 && imc < 18)
+                    console.log("Bajo peso");
+                else
+                    if(imc >= 18 && imc < 25)
+                        console.log("Peso normal (saludable)");
+                    else
+                        if(imc >= 25 && imc < 30)
+                            console.log("Sobrepeso (obesidad de grado 1)");
+                        else
+                            if(imc >= 30 && imc < 35)
+                                console.log("Sobrepeso cronico (obesidad de grado 2");
+                            else
+                                if(imc >= 35 && imc <= 40)
+                                    console.log("Obesidad premorbida (obesidad de grado 3");
+                                else
+                                    if(imc > 40)
+                                        console.log("Obesidad morbida (obesidad de grado 4");
+    </script>
+-->
+<!-- Estacionamiento 
+    <script>
+    var horas = prompt("Ingrese horas de parqueo: ");
+    horas = parseInt(horas);
+    var minutos = prompt("Ingrese minutos de parqueo: ");
+    if (minutos == 0)
+        console.log("Total a pagar: " + (horas * 1800));
+    else
+        console.log("Total a pagar: " + ((horas + 1) * 1800));
+    </script>
+-->
+<!-- Supermercado 
+    <script>
+        var docenas = prompt("Ingrese el numero de docenas: ");
+        docenas = parseInt(docenas);
+        var obsequio = docenas - 3;
+        var precio = prompt("Ingrese el total de la compra: ");
+        precio = parseInt(precio);
+        if (docenas > 3)
+            console.log("Monto de la compra: " + precio + "\n" + "Descuento de: " + (precio * 0.15) + "\n" + "Monto a pagar: " + (precio - (precio * 0.15)) + "\n" + "Unidades de obsequio: " + obsequio);
+        else
+            console.log("Monto de la compra: " + precio + "\n" + "Descuento de: " + (precio * 0.1) + "\n" + "Monto a pagar: " + (precio - (precio * 0.1)) + "\n" + "Unidades de obsequio: 0");
+    </script>
+-->
+<!-- Alquiler carros
+    <script>
+        var km = prompt("Ingrese los km recorridos: ");
+        km = parseInt(km);
+        if(km <= 300)
+            console.log("Monto a pagar: 400000");
+        else
+            if(km > 300 && km <= 1000)
+                console.log("Monto a pagar: " + (400000 + ((km - 300) * 15000)));
+            else
+                if(km > 1000)
+                    console.log("Monto a pagar: " + ((400000 + 10500000) + ((km - 1000) * 10000)));
+    </script>
+-->
+<!-- Capicuo o no
+    <script>
+        var num = prompt("Ingrese un numero Mayor que 100 y Menor que 999 (de tres cifras): ");
+        num = parseInt(num);
+        var unidad = num % 10;
+        console.log("La unidad es " + unidad);
+        var centena = Math.floor(num / 100);
+        console.log("La centena es " + centena);
+        if (unidad == centena)
+            console.log("Es capicuo");
+        else
+            console.log("No es capicuo");
+    </script>
+-->
+</body>
+</html>
